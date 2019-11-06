@@ -1,6 +1,6 @@
 package javasmmr.zoowsome.models.animals;
 
-public abstract class Crow extends Bird{
+public class Crow extends Bird{
 	public Crow(){
 		this.setavgFlightAltitude(200);
 		this.setMigrates(true);

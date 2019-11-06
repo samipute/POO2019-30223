@@ -1,6 +1,6 @@
 package javasmmr.zoowsome.models.animals;
 
-public class Animal {
+public abstract class Animal {
 	private Integer nrOfLegs;
 	private String name;
 

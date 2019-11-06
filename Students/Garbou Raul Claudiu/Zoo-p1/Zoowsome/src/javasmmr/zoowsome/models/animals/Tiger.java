@@ -1,6 +1,6 @@
 package javasmmr.zoowsome.models.animals;
 
-public abstract class Tiger extends Mammal{
+public class Tiger extends Mammal{
 
 	public Tiger() {
 		setNrOfLegs(4);

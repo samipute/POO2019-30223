@@ -1,6 +1,6 @@
 package javasmmr.zoowsome.models.animals;
 
-public abstract class Octopus extends Aquatic{
+public class Octopus extends Aquatic{
 	public Octopus() {
 		setNrOfLegs(8);
 		setName("Octopoda or Chinese Food");

@@ -1,6 +1,6 @@
 package javasmmr.zoowsome.models.animals;
 
-public abstract class Spider extends Insect{
+public class Spider extends Insect{
 	public Spider() {
 		setNrOfLegs(8);
 		setName("Araneae or nightmare fuel");
