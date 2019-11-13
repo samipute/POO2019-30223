@@ -10,6 +10,6 @@ public class MainController {
 
 		SpeciesFactory speciesFactory1 = abstractFactory.getSpeciesFactory(Constants.Species.Birds);
 		Animal a1 = speciesFactory1.getAnimal(Constants.Animals.Birds.Crow);
-		System.out.printf("We have an animal with %d legs!\n", a1.getNrOfLegs());
+		System.out.printf("We have an animal with %d legs!\n", a1.getName());
 	}
 }
