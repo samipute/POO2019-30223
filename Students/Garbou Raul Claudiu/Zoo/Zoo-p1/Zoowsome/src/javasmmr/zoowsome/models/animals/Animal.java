@@ -1,8 +1,11 @@
 package javasmmr.zoowsome.models.animals;
 
-public abstract class Animal {
+public abstract class Animal implements Killer {
+	private final double maintenanceCost;
+	private final double dangerPerc;
 	private Integer nrOfLegs;
 	private String name;
+	private boolean takenCareOf = 'false';
 
 	public Animal(Integer nrOfLegs, String name) {
 		this.nrOfLegs = nrOfLegs;
